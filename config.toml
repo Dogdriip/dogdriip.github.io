@@ -1,0 +1,11 @@
+baseURL = "https://dogdriip.github.io/"
+languageCode = "ko-kr"
+title = "Blog"
+theme = "onetwothree"
+disqusShortname = "dogdriip"
+
+[params]
+    author = "Dogdriip"
+    # github = "Dogdriip"
+    navigation = ["about.md"]
+    style = ""
