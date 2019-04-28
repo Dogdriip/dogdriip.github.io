@@ -3,6 +3,7 @@ languageCode = "ko-kr"
 title = "Blog"
 theme = "onetwothree"
 disqusShortname = "dogdriip"
+googleAnalytics = "UA-139133764-1"
 
 [params]
     author = "Dogdriip"
