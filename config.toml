@@ -6,7 +6,5 @@ disqusShortname = "dogdriip"
 # googleAnalytics = "UA-139133764-1"
 
 [params]
-    author = "Dogdriip"
-    # github = "Dogdriip"
     navigation = ["about.md"]
     style = ""
