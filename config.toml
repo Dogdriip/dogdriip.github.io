@@ -8,3 +8,6 @@ disqusShortname = "dogdriip"
 [params]
     navigation = ["about.md"]
     style = ""
+
+[taxonomies]
+    tag = "tags"
