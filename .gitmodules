@@ -1,7 +1,0 @@
-[submodule "themes/basics"]
-	path = themes/basics
-	url = https://github.com/arjunkrishnababu96/basics.git
-[submodule "public"]
-	path = public
-	url = git@github.com:dogdriip/dogdriip.github.io.git
-	branch = master
