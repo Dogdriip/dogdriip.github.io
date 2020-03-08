@@ -12,6 +12,9 @@ body {
     padding: 0;
     max-width: 800px;
     background-color: #fdfdfd;
+
+    word-break: keep-all;
+    /* word-wrap: break-word;  */
 }
 
 article {
