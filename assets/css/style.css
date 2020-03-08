@@ -54,19 +54,33 @@ ul {
 
 
 
+
 .tag {
+    display: inline-block;
     color: #fdfdfd;
     padding: 3px 5px;
     border-radius: 5px;
     font-size: 0.7em;
     font-weight: 700;
+
+    box-shadow: 0;
+    /* box-shadow: 0 0 10px 5px #000000; */
+    transition: 0.15s;
+}
+.tag:hover {
+    box-shadow: 0 0 20px -5px #000000;
 }
 
+/* https://colorhunt.co/palette/171392 */
 .tag.tech {
-    text-transform: uppercase;
-    background-color: #0e0542;
+    /* text-transform: uppercase; */
+    background-color: #142850;
+}
+.tag.tech.manabitai {
+    background-color: #27496d;
 }
 
+/* https://colorhunt.co/palette/175777 */
 .tag.otaku {
-    background-color: #0f4c75;
+    background-color: #481380;
 }
