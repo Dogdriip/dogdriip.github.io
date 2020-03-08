@@ -34,22 +34,30 @@ section {
     margin: 0 0 2em 0;
 }
 
-h1 { font-size: 1.75em; font-weight: 400; }
+h1 { font-size: 1.75em; font-weight: 400; margin: 0.2em auto; }
 h2 { font-size: 1.25em; font-weight: 400; }
 
 a { text-decoration: none; }
 a, a:link, a:visited { color: #E34E4F; }
+
+.small {
+    font-size: 0.9em;
+    color: #565656;
+    font-weight: 100;
+}
+.small.top {
+    margin: 0.5em auto;
+}
+.small.top > a, .small.top > a:link, .small.top > a:visited {
+    font-weight: 100;
+    color: #565656;
+}
 
 .item {
     margin: 1em auto;
 }
 p {
     margin: 0.2em auto;
-}
-.small {
-    font-size: 0.9em;
-    color: #565656;
-    font-weight: 100;
 }
 
 ul {
