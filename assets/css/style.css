@@ -14,7 +14,6 @@ body {
     background-color: #fdfdfd;
 
     word-break: keep-all;
-    /* word-wrap: break-word;  */
 }
 
 article {
@@ -37,6 +36,9 @@ section {
 
 h1 { font-size: 1.75em; font-weight: 400; }
 h2 { font-size: 1.25em; font-weight: 400; }
+
+a { text-decoration: none; }
+a, a:link, a:visited { color: #E34E4F; }
 
 .item {
     margin: 1em auto;
