@@ -1,0 +1,72 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif;
+    /* weight: 100 300 400 700 */
+    font-weight: 300;
+}
+
+body {
+    margin: 20px auto;
+    padding: 0;
+    max-width: 800px;
+    background-color: #fdfdfd;
+}
+
+article {
+    margin: 20px;
+    padding: 10px 20px;
+
+    border-top-style: solid;
+    border-image: linear-gradient(to right, #E34E4F 0%, #FFBE5C 100%);
+    /* https://wikiwiki.jp/nijisanji/がぶりえら */
+    border-image-slice: 1;
+    border-image-width: 5px 0 0 0;
+
+    box-shadow: 0 0 20px 10px #F5F5F5;
+}
+
+section {
+    border-top: 1px solid #e8e8e8;
+    margin: 0 0 2em 0;
+}
+
+h1 { font-size: 1.75em; font-weight: 400; }
+h2 { font-size: 1.25em; font-weight: 400; }
+
+.item {
+    margin: 1em auto;
+}
+p {
+    margin: 0.2em auto;
+}
+.small {
+    font-size: 0.9em;
+    color: #565656;
+    font-weight: 100;
+}
+
+ul {
+    margin: 10px auto;
+    list-style-type : square;
+}
+
+
+
+.tag {
+    color: #fdfdfd;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.tag.tech {
+    text-transform: uppercase;
+    background-color: #0e0542;
+}
+
+.tag.otaku {
+    background-color: #0f4c75;
+}
