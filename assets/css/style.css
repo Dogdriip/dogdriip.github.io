@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 
 * {
-    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif;
+    font-family: 'Open Sans', 'Spoqa Han Sans', 'Spoqa Han Sans JP', sans-serif;
+    /* weight: 300 400 600 700 800 */
     /* weight: 100 300 400 700 */
     font-weight: 400;
 }
@@ -43,7 +46,7 @@ a { text-decoration: none; }
 a, a:link, a:visited { color: #E34E4F; }
 
 .small {
-    font-size: 0.91em;
+    font-size: 0.8em;
     /* color: #565656; */
     color: #969696;
     font-weight: 300;
