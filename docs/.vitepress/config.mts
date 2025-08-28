@@ -64,7 +64,12 @@ export default defineConfig(
         ],
       ],
       themeConfig: {
-        nav: [{ text: "Dogdriip", link: "/" }],
+        logo: "/icon.png",
+        nav: [
+          { text: "Dogdriip", link: "/" },
+          { text: "Blog", link: "/blog/", activeMatch: "/blog*" },
+          { text: "Journal", link: "/journal/", activeMatch: "/journal*" },
+        ],
         socialLinks: [
           { icon: "github", link: "https://github.com/Dogdriip" },
           { icon: "linkedin", link: "https://www.linkedin.com/in/hyunseung" },
@@ -73,10 +78,33 @@ export default defineConfig(
       sitemap: {
         hostname: "https://driip.me",
       },
+      markdown: {
+        image: {
+          lazyLoading: true,
+        },
+      },
     },
-    {
-      documentRootPath: "/docs",
-      capitalizeFirst: true,
-    },
+    [
+      {
+        documentRootPath: "docs",
+        scanStartPath: "blog",
+        basePath: "/blog/",
+        resolvePath: "/blog/",
+        capitalizeFirst: true,
+        sortMenusByFrontmatterDate: true,
+        sortMenusOrderByDescending: true,
+        hyphenToSpace: true,
+      },
+      {
+        documentRootPath: "docs",
+        scanStartPath: "journal",
+        basePath: "/journal/",
+        resolvePath: "/journal/",
+        capitalizeFirst: true,
+        sortMenusByFrontmatterDate: true,
+        sortMenusOrderByDescending: true,
+        hyphenToSpace: true,
+      },
+    ],
   ),
 );
