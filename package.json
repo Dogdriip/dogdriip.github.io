@@ -12,6 +12,7 @@
   "author": "Hyunseung Jeon <dogdriip@gmail.com>",
   "devDependencies": {
     "lefthook": "^1.12.3",
+    "markdown-it-mathjax3": "^4.3.2",
     "prettier": "3.6.2",
     "vitepress": "2.0.0-alpha.12",
     "vitepress-sidebar": "^1.33.0"
