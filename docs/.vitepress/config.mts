@@ -79,6 +79,7 @@ export default defineConfig(
         hostname: "https://driip.me",
       },
       markdown: {
+        math: true,
         image: {
           lazyLoading: true,
         },
